@@ -24,6 +24,9 @@
 # list(APPEND ext_builtin_brand_paths "${CMAKE_CURRENT_LIST_DIR}/../../metamodule-plugin-examples/Bogaudio")
 # list(APPEND ext_builtin_brand_libname "BogaudioModules")
 
+list(APPEND ext_builtin_brand_paths "${CMAKE_CURRENT_LIST_DIR}/../../metamodule-plugin-examples/TFExample")
+list(APPEND ext_builtin_brand_libname "TFExample")
+
 # Ext plugins can also be given on the cmake command line, which replaces any listed above.
 # (The SDK's scripts/check_element_layout.py uses this):
 #   -DEXT_BUILTIN_BRAND_PATHS="path1;path2" -DEXT_BUILTIN_BRAND_LIBNAMES="Lib1;Lib2"
